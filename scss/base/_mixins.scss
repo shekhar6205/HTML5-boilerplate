@@ -1,0 +1,53 @@
+//Breakpoint mixins
+$mobile-width: 480px;
+$tablet-width: 768px;
+$tablet-potrait-width: 960px;
+$desktop-width: 1024px;
+$big-desktop-width: 1600px;
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+        @content;
+    }
+}
+@mixin tabletLandscape {
+  @media (min-width: #{$tablet-potrait-width}) and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin tabletPotrait {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$tablet-potrait-width - 1px}) {
+        @content;
+    }
+}
+@mixin ipad {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: #{$desktop-width + 1px}) {
+        @content;
+    }
+}
+@mixin bigdesktop {
+  @media (min-width: #{$big-desktop-width + 1px}) {
+    @content;
+  }
+}
+
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
