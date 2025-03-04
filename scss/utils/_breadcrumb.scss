@@ -1,0 +1,32 @@
+.breadcrumb{
+    display: flex;
+    text-transform: uppercase;
+    .home{
+        font-family: $font-bold;
+        line-height: 1;
+    }
+    .other-links{
+        padding-left: 0.3rem;
+        padding-right: 4rem;
+        border-right: $black solid 2px;
+        ul{
+            li{
+                line-height: 1;
+                a{
+                    color: $black;
+                    text-decoration: none;
+                    &.active{
+                        font-family: $font-bold;
+                    }
+                }
+            }
+        }
+    }
+    .page-title{
+        font-size: 3rem;
+        color: #e6e7e8;
+        line-height: 0.8;
+        font-family: $font-bold;
+        padding-left: 4rem;
+    }
+}

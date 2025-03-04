@@ -1,1 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family:"HelveticaNowText-Medium";
+    src:url("../fonts/HelveticaNowText-Medium.woff2") format("woff2"),url("../fonts/HelveticaNowText-Medium.woff") format("woff");
+    font-style:normal;
+    font-weight:400;
+}
+@font-face {
+    font-family:"HelveticaNowText-ExtraBold";
+    src:url("../fonts/HelveticaNowText-ExtraBold.woff2") format("woff2"),url("../fonts/HelveticaNowText-ExtraBold.woff") format("woff");
+    font-style:normal;
+    font-weight:400;
+}
+@font-face {
+    font-family:"HelveticaNowText-MediumItalic";
+    src:url("../fonts/HelveticaNowText-MediumItalic.woff2") format("woff2"),url("../fonts/HelveticaNowText-MediumItalic.woff") format("woff");
+    font-style:normal;
+    font-weight:400;
+}

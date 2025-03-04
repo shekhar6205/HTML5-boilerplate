@@ -1,0 +1,10 @@
+header{
+    position: relative;
+    .ladybug{
+        position: absolute;
+        width: 20%;
+        left: 15%;
+        top: 0;
+        pointer-events: none;
+    }
+}

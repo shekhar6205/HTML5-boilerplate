@@ -1,0 +1,36 @@
+p{
+    margin-bottom: 1.5rem;
+}
+.green-link{
+    color: #9fce00;
+}
+.home-bg{
+    background: url(../img/home-footer.jpg) center bottom no-repeat;
+    padding-bottom: 120vh;
+    background-size: 100%;
+}
+.text-p-5per{
+    padding-right: 5%;
+}
+.cockroach{
+    position: absolute;
+    width: 40%;
+    right: 0;
+    bottom: -18%;
+    pointer-events: none;
+}
+
+
+/*Answer page css*/
+.answer-bg{
+    background: url(../img/answer-footer.jpg) center bottom no-repeat;
+    padding-bottom: 140vh;
+    background-size: 100%;
+}
+
+/*Apply page css*/
+.apply-bg{
+    background: url(../img/apply-footer.jpg) center bottom no-repeat;
+    padding-bottom: 50vh;
+    background-size: 100%;
+}
